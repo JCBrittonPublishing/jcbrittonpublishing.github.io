@@ -1,15 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 220" width="350" height="220">
-  <!-- Stylized J -->
-  <path d="M35,170 Q15,180 35,205 Q55,225 85,210 Q115,195 100,170 Q95,150 60,160 Q35,170 35,170 Z"
-        stroke="white" stroke-width="8" fill="none"/>
-  <!-- Stylized C with knot pattern -->
-  <path d="M140,185 Q100,160 120,120 Q140,80 200,80 Q260,80 280,120 Q300,160 260,185 Q220,210 180,190 Q167,180 180,170 Q210,170 250,140"
-        stroke="white" stroke-width="8" fill="none"/>
-  <!-- Stylized B with double loop knot pattern -->
-  <path d="M215,95 Q255,90 285,120 Q315,150 285,185 Q255,220 215,215 Q195,205 215,185 Q235,175 255,195 Q275,215 300,205 Q325,190 300,170 Q275,150 255,160 Q235,170 245,120 Q255,70 215,95 Z"
-        stroke="white" stroke-width="8" fill="none"/>
-  <!-- Add a black background for preview (optional) -->
-  <rect x="0" y="0" width="350" height="220" fill="black" />
-</svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title desc">
+  <title id="title">J.C. Britton Publishing Logo</title>
+  <desc id="desc">Twin ravens (Huginn & Muninn) atop Celtic-knot JCB monogram, monochrome ink style.</desc>
+  
+  <defs>
+    <style>
+      .raven { fill: #fff; stroke: #fff; stroke-width: 3; }
+      .knot  { fill: none; stroke: #fff; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .letter{ fill: #fff; }
+    </style>
+  </defs>
 
+  <rect width="400" height="500" fill="#000"/>
+
+  <!-- LEFT RAVEN -->
+  <path class="raven" d="M140 180
+    C120 160, 100 150, 90 170
+    C80 190, 95 220, 110 230
+    L125 240
+    Q130 235, 135 238
+    Q140 241, 140 245
+    Q140 255, 135 260
+    L120 265
+    Q110 270, 105 275
+    Q100 280, 100 290
+    L100 310
+    Q100 320, 110 325
+    Q120 330, 130 325
+    L140 315
+    Z"/>
+  <path class="raven" d="M140 180
+    Q155 165, 170 170
+    Q185 175, 190 195
+    Q195 215, 185 230
+    L170 240
+    Q165 245, 160 242
+    Z"/>
+
+  <!-- RIGHT RAVEN (mirrored) -->
+  <path class="raven" d="M260 180
+    C280 160, 300 150, 310 170
+    C320 190, 305 220, 290 230
+    L275 240
+    Q270 235, 265 238
+    Q260 241, 260 245
+    Q260 255, 265 260
+    L280 265
+    Q290 270, 295 275
+    Q300 280, 300 290
+    L300 310
+    Q300 320, 290 325
+    Q280 330, 270 325
+    L260 315
+    Z"/>
+  <path class="raven" d="M260 180
+    Q245 165, 230 170
+    Q215 175, 210 195
+    Q205 215, 215 230
+    L230 240
+    Q235 245, 240 242
+    Z"/>
+
+  <!-- JCB MONOGRAM with Celtic knots -->
+  <g class="letter">
+    <!-- J -->
+    <path d="M80 350
+      Q80 380, 100 410
+      Q120 440, 150 440
+      Q180 440, 200 410
+      Q220 380, 220 350
+      L220 320
+      Q220 300, 200 300
+      Q180 300, 160 320
+      L160 350
+      Q160 370, 150 370
+      Q140 370, 140 350
+      Z"/>
+    <!-- C -->
+    <path d="M240 350
+      Q240 390, 220 420
+      Q200 450, 160 450
+      Q120 450, 100 420
+      Q80 390, 80 350
+      Q80 310, 100 280
+      Q120 250, 160 250
+      Q200 250, 220 280
+      Q240 310, 240 350
+      M160 290
+      Q140 290, 130 310
+      Q120 330, 120 350
+      Q120 370, 130 390
+      Q140 410, 160 410
+      Q180 410, 190 390
+      Q200 370, 200 350
+      Q200 330, 190 310
+      Q180 290, 160 290
+      Z"/>
+    <!-- B -->
+    <path d="M320 350
+      Q320 390, 300 420
+      Q280 450, 240 450
+      L280 450
+      Q320 450, 340 410
+      Q360 370, 360 330
+      Q360 290, 340 250
+      L320 250
+      Q280 250, 260 290
+      Q240 330, 240 370
+      L240 450
+      L200 450
+      L200 250
+      L240 250
+      Q280 250, 300 290
+      Q320 330, 320 350
+      Z"/>
+  </g>
+
+  <!-- Celtic knot flourishes (simplified) -->
+  <path class="knot" d="M100 280
+    Q110 270, 120 280
+    Q130 290, 120 300
+    Q110 310, 100 300
+    Q90 290, 100 280
+    M280 280
+    Q290 270, 300 280
+    Q310 290, 300 300
+    Q290 310, 280 300
+    Q270 290, 280 280"/>
+</svg>
 
