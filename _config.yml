@@ -2,7 +2,7 @@ title: J.C. Britton Publishing
 email: jcbrittonpublishing@protonmail.com
 description: Indie press & editing studio for sci-fi, paranormal, religious & philosophical manuscripts.
 url: "https://jcbrittonpublishing.github.io"
-logo: /assets/images/tattoo-logo.svg
+logo: /assets/images/JCBRavens.jpg
 remote_theme: pages-themes/minimal
 plugins:
   - jekyll-remote-theme
@@ -13,4 +13,4 @@ defaults:
  - scope:
      path: ""
    values:
-     image: /assets/images/tattoo-logo.svg
+     image: /assets/images/Books.jpg
