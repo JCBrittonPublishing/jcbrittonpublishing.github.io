@@ -1,48 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <title>Twin Ravens in Flight – J.C. Britton Publishing</title>
-  <rect width="400" height="400" fill="#000"/>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="2">
+  <!-- Raven 1 -->
+  <path d="M100,50 
+           C120,40 140,60 130,80 
+           C125,90 110,95 100,90 
+           C90,85 85,70 90,60 
+           C95,55 100,50 100,50 
+           Z" fill="black"/>
 
-  <!-- RAVEN 1 (top-left → bottom-right spiral) -->
-  <path fill="#fff" d="
-    M100 100
-    Q80 80, 60 100
-    Q40 120, 50 150
-    C60 180, 90 190, 120 185
-    Q150 180, 170 165
-    Q190 150, 190 120
-    Q190 100, 175 90
-    Q160 80, 140 85
-    Z"/>
-  <!-- wing knots -->
-  <path stroke="#fff" stroke-width="6" fill="none"
-        d="M80 120 Q65 130, 55 145
-           Q45 160, 55 175
-           Q70 185, 90 180"/>
+  <!-- Raven 2 -->
+  <path d="M100,150 
+           C80,160 60,140 70,120 
+           C75,110 90,105 100,110 
+           C110,115 115,130 110,140 
+           C105,145 100,150 100,150 
+           Z" fill="black"/>
 
-  <!-- RAVEN 2 (bottom-right → top-left spiral) -->
-  <path fill="#fff" d="
-    M300 300
-    Q320 320, 340 300
-    Q360 280, 350 250
-    C340 220, 310 210, 280 215
-    Q250 220, 230 235
-    Q210 250, 210 280
-    Q210 300, 225 310
-    Q240 320, 260 315
-    Z"/>
-  <path stroke="#fff" stroke-width="6" fill="none"
-        d="M320 280 Q335 270, 345 255
-           Q355 240, 345 225
-           Q330 215, 310 220"/>
-
-  <!-- Celtic spiral connecting them -->
-  <path stroke="#fff" stroke-width="8" fill="none"
-        stroke-linecap="round"
-        d="M140 140
-           Q200 100, 260 140
-           Q300 180, 280 240
-           Q260 300, 200 300
-           Q140 300, 120 240
-           Q100 180, 140 140"/>
+  <!-- Spiral motion lines -->
+  <path d="M100,50 
+           Q105,100 100,150 
+           Q95,100 100,50" stroke="gray" stroke-width="1" fill="none"/>
 </svg>
