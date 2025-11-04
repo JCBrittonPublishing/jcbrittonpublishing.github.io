@@ -8,7 +8,7 @@ header:
 <div class="text-center text-white">
   <h1 class="display-2">J.C. Britton Publishing</h1>
   <p class="lead">Sci-fi • Paranormal • Religious • Philosophical</p>
-  <p class="lead">Manuscript editing + indie press</p>
+  <p class="lead">Manuscript Editing + Indie Press</p>
   <a href="#services" class="btn btn-outline-light btn-lg">Editing Rates</a>
   <a href="#shop" class="btn btn-primary btn-lg">Shop</a>
 </div>
