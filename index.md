@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: default
 header:
   overlay_image: /assets/images/Books.jpg
   overlay_filter: 0.5
