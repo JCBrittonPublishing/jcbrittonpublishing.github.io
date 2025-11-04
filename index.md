@@ -13,7 +13,7 @@ header:
   <a href="#shop" class="btn btn-primary btn-lg">Shop</a>
 </div>
 
-<br><br>
+# <br><br>
 
 ## <a name="services"></a>Editing Services
 - **Beta Read** – $79  
