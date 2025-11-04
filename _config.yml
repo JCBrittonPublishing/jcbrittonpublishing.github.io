@@ -3,7 +3,7 @@ email: jcbritton@protonmail.com
 description: Indie press & editing studio for sci-fi, paranormal, religious & philosophical stories.
 url: "https://jcbrittonpublishing.github.io"
 logo: /assets/images/tattoo-logo.svg
-
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
