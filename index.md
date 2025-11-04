@@ -12,9 +12,7 @@ header:
   <a href="#services" class="btn btn-outline-light btn-lg">Editing Rates</a>
   <a href="#shop" class="btn btn-primary btn-lg">Shop</a>
 </div>
-
-# <br><br>
-
+<br><br>
 ## <a name="services"></a>Editing Services
 - **Beta Read** – $79  
 - **Developmental Edit** – $0.018/word  
