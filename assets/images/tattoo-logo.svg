@@ -1,129 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
-  <title>J.C. Britton Publishing – Ravens Logo</title>
-
-  <!-- Black canvas -->
-  <rect width="600" height="700" fill="#000"/>
-
-  <!-- LEFT RAVEN (Huginn) – knot-winged -->
-  <g fill="#fff">
-    <path d="M190 180
-      C170 160, 140 155, 130 180
-      C120 205, 135 240, 160 255
-      Q175 265, 190 260
-      Q205 255, 208 245
-      Q211 235, 205 220
-      C200 200, 190 180, 190 180
-      Z"/>
-    <!-- wing knots -->
-    <path stroke="#fff" stroke-width="6" fill="none"
-      d="M150 210
-      Q135 215, 125 225
-      Q115 235, 120 250
-      Q130 260, 145 255
-      Q160 250, 150 210"/>
-    <!-- head & eye -->
-    <circle cx="195" cy="195" r="6"/>
-    <path d="M205 190
-      Q212 188, 218 192
-      Q224 196, 220 202
-      Z"/>
-    <!-- talons gripping J -->
-    <path stroke="#fff" stroke-width="4" fill="none"
-      d="M180 270 L175 280 M190 270 L195 280"/>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <title>Two Stylized Ravens Flying Around Each Other</title>
+  
+  <rect width="400" height="400" fill="#000"/>
+  
+  <!-- Left Raven (flying rightward) -->
+  <g fill="#fff" transform="rotate(-20 100 200)">
+    <!-- Body -->
+    <ellipse cx="100" cy="200" rx="40" ry="25" />
+    <!-- Head -->
+    <circle cx="70" cy="190" r="15" />
+    <!-- Beak -->
+    <polygon points="55,190 45,185 45,195" />
+    <!-- Eye -->
+    <circle cx="65" cy="185" r="3" fill="#000" />
+    <!-- Left Wing -->
+    <path d="M70 190 Q30 150 10 200 Q30 250 70 210" />
+    <!-- Right Wing -->
+    <path d="M70 190 Q30 230 10 200 Q30 170 70 210" />
+    <!-- Tail -->
+    <path d="M140 200 Q160 180 180 200 Q160 220 140 200" />
   </g>
-
-  <!-- RIGHT RAVEN (Muninn) – mirrored -->
-  <g fill="#fff" transform="translate(600,0) scale(-1,1) translate(-600,0)">
-    <path d="M190 180
-      C170 160, 140 155, 130 180
-      C120 205, 135 240, 160 255
-      Q175 265, 190 260
-      Q205 255, 208 245
-      Q211 235, 205 220
-      C200 200, 190 180, 190 180
-      Z"/>
-    <path stroke="#fff" stroke-width="6" fill="none"
-      d="M150 210
-      Q135 215, 125 225
-      Q115 235, 120 250
-      Q130 260, 145 255
-      Q160 250, 150 210"/>
-    <circle cx="195" cy="195" r="6"/>
-    <path d="M205 190
-      Q212 188, 218 192
-      Q224 196, 220 202
-      Z"/>
-    <path stroke="#fff" stroke-width="4" fill="none"
-      d="M180 270 L175 280 M190 270 L195 280"/>
+  
+  <!-- Right Raven (flying leftward) -->
+  <g fill="#fff" transform="rotate(20 300 200)">
+    <!-- Body -->
+    <ellipse cx="300" cy="200" rx="40" ry="25" transform="scale(-1,1)" />
+    <!-- Head -->
+    <circle cx="330" cy="190" r="15" transform="scale(-1,1)" />
+    <!-- Beak -->
+    <polygon points="345,190 355,185 355,195" transform="scale(-1,1)" />
+    <!-- Eye -->
+    <circle cx="335" cy="185" r="3" fill="#000" transform="scale(-1,1)" />
+    <!-- Left Wing -->
+    <path d="M330 190 Q370 150 390 200 Q370 250 330 210" transform="scale(-1,1)" />
+    <!-- Right Wing -->
+    <path d="M330 190 Q370 230 390 200 Q370 170 330 210" transform="scale(-1,1)" />
+    <!-- Tail -->
+    <path d="M260 200 Q240 180 220 200 Q240 220 260 200" transform="scale(-1,1)" />
   </g>
-
-  <!-- JCB – Celtic knot letters (huge) -->
-  <g fill="#fff" font-family="Georgia,serif" font-weight="900">
-    <!-- J -->
-    <path d="M120 320
-      Q120 420, 165 480
-      Q210 540, 280 540
-      Q350 540, 395 480
-      Q440 420, 440 320
-      L440 300
-      Q440 250, 395 235
-      Q350 220, 280 220
-      Q210 220, 165 235
-      Q120 250, 120 300
-      Z"/>
-    <!-- C – knot hole -->
-    <path d="M480 320
-      Q480 420, 435 480
-      Q390 540, 320 540
-      Q250 540, 205 480
-      Q160 420, 160 320
-      Q160 220, 205 160
-      Q250 100, 320 100
-      Q390 100, 435 160
-      Q480 220, 480 320
-      M320 180
-      Q260 180, 225 240
-      Q190 300, 190 320
-      Q190 340, 225 400
-      Q260 460, 320 460
-      Q380 460, 415 400
-      Q450 340, 450 320
-      Q450 300, 415 240
-      Q380 180, 320 180
-      Z"/>
-    <!-- B – double knot loops -->
-    <path d="M520 220
-      Q580 220, 620 270
-      Q660 320, 660 380
-      Q660 440, 620 490
-      Q580 540, 520 540
-      L480 540
-      L480 220
-      Z
-      M520 280
-      Q550 280, 570 300
-      Q590 320, 590 350
-      Q590 380, 570 400
-      Q550 420, 520 420
-      L520 280
-      Z"/>
-  </g>
-
-  <!-- PUBLISHING – tiny caps -->
-  <text x="300" y="620"
-    font-family="Impact, Arial Black, sans-serif"
-    font-size="36"
-    fill="#fff"
-    text-anchor="middle"
-    letter-spacing="4">
-    PUBLISHING
-  </text>
-
-  <!-- Optional subtle knot border (uncomment to add) -->
-  <!--
-  <path stroke="#333" stroke-width="12" fill="none"
-    d="M40 40 L560 40 L560 660 L40 660 Z
-       M60 60 L540 60 L540 640 L60 640 Z"/>
-  -->
+  
 </svg>
