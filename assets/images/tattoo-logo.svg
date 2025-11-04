@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="500" height="250">
-  <!-- Huginn -->
-  <path d="M50,50 C40,30 30,30 20,50 C10,70 30,90 50,70 C70,50 60,70 50,50 Z" fill="black"/>
-  <circle cx="30" cy="50" r="3" fill="white"/> <!-- Eye -->
-  <path d="M20,50 L10,40 L15,50 L10,60 Z" fill="black"/> <!-- Beak -->
-
-  <!-- Muninn -->
-  <path d="M150,50 C140,30 130,30 120,50 C110,70 130,90 150,70 C170,50 160,70 150,50 Z" fill="black"/>
-  <circle cx="130" cy="50" r="3" fill="white"/> <!-- Eye -->
-  <path d="M120,50 L110,40 L115,50 L110,60 Z" fill="black"/> <!-- Beak -->
-
-  <!-- Branch -->
-  <line x1="10" y1="80" x2="190" y2="80" stroke="brown" stroke-width="5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 220" width="350" height="220">
+  <!-- Stylized J -->
+  <path d="M35,170 Q15,180 35,205 Q55,225 85,210 Q115,195 100,170 Q95,150 60,160 Q35,170 35,170 Z"
+        stroke="white" stroke-width="8" fill="none"/>
+  <!-- Stylized C with knot pattern -->
+  <path d="M140,185 Q100,160 120,120 Q140,80 200,80 Q260,80 280,120 Q300,160 260,185 Q220,210 180,190 Q167,180 180,170 Q210,170 250,140"
+        stroke="white" stroke-width="8" fill="none"/>
+  <!-- Stylized B with double loop knot pattern -->
+  <path d="M215,95 Q255,90 285,120 Q315,150 285,185 Q255,220 215,215 Q195,205 215,185 Q235,175 255,195 Q275,215 300,205 Q325,190 300,170 Q275,150 255,160 Q235,170 245,120 Q255,70 215,95 Z"
+        stroke="white" stroke-width="8" fill="none"/>
+  <!-- Add a black background for preview (optional) -->
+  <rect x="0" y="0" width="350" height="220" fill="black" />
 </svg>
+
 
