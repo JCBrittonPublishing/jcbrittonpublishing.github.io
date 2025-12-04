@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JC Britton Publishing</title>
+  <meta name="description" content="Independent publisher of fiction, poetry, and creative works.">
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0b0c10;
+      --fg: #f5f7ff;
+      --accent: #4aa3ff;
+      --muted: #a0a4b8;
+      --code-bg: #111320;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #192040 0, #05060a 55%, #000 100%);
+      color: var(--fg);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+    main {
+      max-width: 900px;
+      width: 100%;
+      background: rgba(5, 6, 15, 0.9);
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.06);
+      box-shadow: 0 22px 70px rgba(0,0,0,0.8);
+      padding: 2.5rem 2rem;
+      backdrop-filter: blur(14px);
+    }
+    header {
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.25rem;
+    }
+    h1 {
+      font-size: clamp(2.1rem, 2.9vw, 2.6rem);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .tagline {
+      margin-top: 0.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    section + section { margin-top: 1.75rem; }
+    h2 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin: 0 0 0.75rem;
+    }
+    p {
+      line-height: 1.6;
+      color: #d4d7f0;
+      margin-bottom: 0.5rem;
+    }
+    ul { margin: 0.5rem 0 0.75rem 1.25rem; }
+    li { margin: 0.25rem 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      background: var(--code-bg);
+      color: #e0e4ff;
+      padding: 0.15rem 0.35rem;
+      border-radius: 4px;
+      font-size: 0.85em;
+    }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px dashed rgba(255,255,255,0.08);
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    @media (max-width: 640px) {
+      main { padding: 1.75rem 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>JC Britton</h1>
+      <p class="tagline">Independent Publisher · Fiction · Poetry · Creative Works</p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        JC Britton Publishing is a small independent press dedicated to beautiful, thoughtful books 
+        that might not find a home elsewhere. We specialize in literary fiction, poetry collections, 
+        and experimental works.
+      </p>
+    </section>
+
+    <section>
+      <h2>Latest Releases</h2>
+      <ul>
+        <li><strong>Title of Book One</strong> – A brief description or subtitle.</li>
+        <li><strong>Title of Book Two</strong> – Coming 2025.</li>
+        <li><strong>Title of Book Three</strong> – Poetry collection.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact & Submissions</h2>
+      <p>Email: <a href="mailto:hello@jcbritton.com">hello@jcbritton.com</a></p>
+      <p>We’re currently <strong>open</strong> to unsolicited manuscripts.</p>
+    </section>
+
+    <footer>
+      <span>© <span id="year"></span> JC Britton Publishing</span>
+      <span>Hosted on <code>GitHub Pages</code></span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
